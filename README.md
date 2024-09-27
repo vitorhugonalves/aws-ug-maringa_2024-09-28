@@ -9,3 +9,10 @@ Nesse repositório apresentaremos os coneceitos de conectividade na AWS, bem com
  - Conectividade entre o DC local, via VPN IPSec;
  - Integração das rotas do DC local com as VPCs via Transit Gateway;
  - Configuração de um servidor de VPN para acesso via Client utilizando um CHR Mikrotik.
+
+# Documentação da Rede
+
+ - Rede DC: 172.19.0.0/16
+ - VPC HML: 172.20.0.0/16
+ - VPC PRD: 172.21.0.0/16
+

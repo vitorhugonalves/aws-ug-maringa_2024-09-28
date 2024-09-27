@@ -14,7 +14,7 @@ resource "aws_security_group" "ec2_bastion_prd" {
     from_port    = 22
     to_port      = 22
     protocol     = "tcp"
-    cidr_blocks  = ["0.0.0.0/0"]
+    cidr_blocks  = ["168.205.21.114"]
   }
 
   ingress {
